@@ -1,5 +1,14 @@
+//follow the player
+if instance_exists(obj_player1)
+{
+	direction = point_direction(x, y, obj_player1.x, obj_player1.y)
+	speed = move_speed
+}
+
+//defineing the directions
+
 //Play animations on movement
-if(moving_right && moving_up)
+if(direction > 0 && direction < 90)
 {
 	image_speed = 1
 	if(image_index < walk_up_right_frame_start || image_index > walk_up_right_frame_start + total_frames)

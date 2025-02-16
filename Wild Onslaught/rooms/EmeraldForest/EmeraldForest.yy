@@ -8,13 +8,14 @@
   "instanceCreationOrder":[
     {"name":"inst_53C78D33","path":"rooms/EmeraldForest/EmeraldForest.yy",},
     {"name":"inst_7F17F599","path":"rooms/EmeraldForest/EmeraldForest.yy",},
-    {"name":"inst_5B2809A1","path":"rooms/EmeraldForest/EmeraldForest.yy",},
+    {"name":"inst_5DE388CA","path":"rooms/EmeraldForest/EmeraldForest.yy",},
   ],
   "isDnd":false,
   "layers":[
-    {"$GMRInstanceLayer":"","%Name":"player_characters","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"player_characters","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
+    {"$GMRInstanceLayer":"","%Name":"player_characters","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+        {"$GMRInstance":"v1","%Name":"inst_5DE388CA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5DE388CA","objectId":{"name":"obj_player1","path":"objects/obj_player1/obj_player1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2880.0,"y":1632.0,},
+      ],"layers":[],"name":"player_characters","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v1","%Name":"inst_5B2809A1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5B2809A1","objectId":{"name":"obj_player1","path":"objects/obj_player1/obj_player1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2880.0,"y":1632.0,},
         {"$GMRInstance":"v1","%Name":"inst_53C78D33","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_53C78D33","objectId":{"name":"obj_handler","path":"objects/obj_handler/obj_handler.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":960.0,"y":608.0,},
         {"$GMRInstance":"v1","%Name":"inst_7F17F599","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7F17F599","objectId":{"name":"obj_plant1","path":"objects/obj_plant1/obj_plant1.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2944.0,"y":1600.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
@@ -73,7 +74,7 @@
           8,2,-25,6,2,12,15,-129,6,4,12,5,8,2,-18,6,2,9,2,-158,6,2,9,2,-18,6,2,12,15,-158,6,2,12,15,-755,6,3,11,
           7,14,-63,6,3,11,7,14,-111,6,6,9,4,2,6,11,14,-60,6,3,9,4,2,-111,6,6,12,8,3,7,10,2,-60,6,3,12,8,2,-112,
           6,1,12,-3,5,1,15,-61,6,2,9,3,-3,7,1,14,-174,6,6,12,8,1,5,8,2,-175,6,5,12,15,6,12,15,-793,6,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"TileSet2","path":"tilesets/TileSet2/TileSet2.yy",},"userdefinedDepth":false,"visible":false,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":{"name":"TileSet2","path":"tilesets/TileSet2/TileSet2.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"Grass_and_dirt_outline","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Grass_and_dirt_outline","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":102,"SerialiseWidth":180,"TileCompressedData":[
           1,1,-19,6,1,1,-139,6,1,1,-19,6,1,1,-19,6,1,1,-13,6,3,11,7,14,-63,6,3,11,7,14,-57,6,1,1,-19,6,1,1,-19,
           6,1,1,-13,6,6,9,4,2,6,11,14,-60,6,3,9,4,2,-57,6,1,1,-19,6,1,1,-19,6,1,1,-13,6,6,12,8,3,7,10,2,-60,6,
@@ -128,7 +129,7 @@
           6,1,1,-19,6,1,1,-19,6,1,1,-14,6,1,12,-3,5,1,15,-61,6,2,9,3,-3,7,1,14,-53,6,1,1,-19,6,1,1,-19,6,1,1,-80,
           6,6,12,8,1,5,8,2,-53,6,1,1,-19,6,1,1,-19,6,1,1,-81,6,5,12,15,6,12,15,-53,6,1,1,-19,6,1,1,-19,6,1,1,-139,
           6,1,1,-19,6,1,1,-19,6,1,1,-139,6,1,1,-19,6,1,1,-19,6,1,1,-139,6,1,1,-19,6,-180,1,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"TileSet2","path":"tilesets/TileSet2/TileSet2.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":{"name":"TileSet2","path":"tilesets/TileSet2/TileSet2.yy",},"userdefinedDepth":false,"visible":false,"x":0,"y":0,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4278190080,"depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "name":"EmeraldForest",

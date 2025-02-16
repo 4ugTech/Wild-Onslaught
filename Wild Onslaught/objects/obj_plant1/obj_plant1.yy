@@ -9,6 +9,7 @@
   "name":"obj_plant1",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_generic_character","path":"objects/obj_generic_character/obj_generic_character.yy",},"propertyId":{"name":"idle_frame_start","path":"objects/obj_generic_character/obj_generic_character.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_generic_character","path":"objects/obj_generic_character/obj_generic_character.yy",},"propertyId":{"name":"move_speed","path":"objects/obj_generic_character/obj_generic_character.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":".2",},
   ],
   "parent":{
     "name":"Objects",
