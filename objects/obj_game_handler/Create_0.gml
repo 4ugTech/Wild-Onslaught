@@ -1,4 +1,4 @@
 window_set_fullscreen(true)
 fullscreen = true
-hp = 50
+hp = 100
 

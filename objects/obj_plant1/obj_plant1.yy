@@ -45,6 +45,18 @@
         "GMSprite",
       ],"listItems":[],"multiselect":false,"name":"anim_idle","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"spr_plant1_idle","path":"sprites/spr_plant1_idle/spr_plant1_idle.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_plant1_idle","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"move_speed","filters":[],"listItems":[],"multiselect":false,"name":"move_speed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":".2","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"anim_attack_left","filters":[
+        "GMSprite",
+      ],"listItems":[],"multiselect":false,"name":"anim_attack_left","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"spr_enemy1_attack_left","path":"sprites/spr_enemy1_attack_left/spr_enemy1_attack_left.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_enemy1_attack_left","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"anim_attack_right","filters":[
+        "GMSprite",
+      ],"listItems":[],"multiselect":false,"name":"anim_attack_right","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"spr_enemy1_attack_right","path":"sprites/spr_enemy1_attack_right/spr_enemy1_attack_right.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_enemy1_attack_right","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"anim_attack_down","filters":[
+        "GMSprite",
+      ],"listItems":[],"multiselect":false,"name":"anim_attack_down","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"spr_enemy1_attack_down","path":"sprites/spr_enemy1_attack_down/spr_enemy1_attack_down.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_enemy1_attack_down","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"anim_attack_up","filters":[
+        "GMSprite",
+      ],"listItems":[],"multiselect":false,"name":"anim_attack_up","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"spr_enemy1_attack_up","path":"sprites/spr_enemy1_attack_up/spr_enemy1_attack_up.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_enemy1_attack_up","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
