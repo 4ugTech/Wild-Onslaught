@@ -27,7 +27,11 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"obj_enemy","filters":[
+        "GMObject",
+      ],"listItems":[],"multiselect":false,"name":"obj_enemy","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"obj_plant1","path":"objects/obj_plant1/obj_plant1.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"obj_plant1","varType":5,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,

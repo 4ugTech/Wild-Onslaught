@@ -35,7 +35,7 @@ else
 
 if(instance_number(obj_plant1) < max_instances)
 {
-	instance_create_layer(spawn_x, spawn_y, "Instances", obj_plant1);
+	instance_create_layer(spawn_x, spawn_y, "Instances", obj_enemy);
 }
 
 alarm[0] = 60
