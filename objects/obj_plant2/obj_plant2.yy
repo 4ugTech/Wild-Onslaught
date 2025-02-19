@@ -1,7 +1,11 @@
 {
   "$GMObject":"",
   "%Name":"obj_plant2",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_player1","path":"objects/obj_player1/obj_player1.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_plant2",
   "overriddenProperties":[
@@ -11,6 +15,12 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_plant1","path":"objects/obj_plant1/obj_plant1.yy",},"propertyId":{"name":"anim_walk_up","path":"objects/obj_plant1/obj_plant1.yy",},"resource":{"name":"spr_enemy2_walk_up","path":"sprites/spr_enemy2_walk_up/spr_enemy2_walk_up.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_enemy2_walk_up",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_plant1","path":"objects/obj_plant1/obj_plant1.yy",},"propertyId":{"name":"anim_idle","path":"objects/obj_plant1/obj_plant1.yy",},"resource":{"name":"spr_enemy2_idle","path":"sprites/spr_enemy2_idle/spr_enemy2_idle.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_enemy2_idle",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_plant1","path":"objects/obj_plant1/obj_plant1.yy",},"propertyId":{"name":"move_speed","path":"objects/obj_plant1/obj_plant1.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":".2",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_plant1","path":"objects/obj_plant1/obj_plant1.yy",},"propertyId":{"name":"anim_attack_left","path":"objects/obj_plant1/obj_plant1.yy",},"resource":{"name":"spr_plant2_attack_left","path":"sprites/spr_plant2_attack_left/spr_plant2_attack_left.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_plant2_attack_left",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_plant1","path":"objects/obj_plant1/obj_plant1.yy",},"propertyId":{"name":"anim_attack_right","path":"objects/obj_plant1/obj_plant1.yy",},"resource":{"name":"spr_plant2_attack_right","path":"sprites/spr_plant2_attack_right/spr_plant2_attack_right.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_plant2_attack_right",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_plant1","path":"objects/obj_plant1/obj_plant1.yy",},"propertyId":{"name":"anim_attack_down","path":"objects/obj_plant1/obj_plant1.yy",},"resource":{"name":"spr_plant2_attack_down","path":"sprites/spr_plant2_attack_down/spr_plant2_attack_down.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_plant2_attack_down",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_plant1","path":"objects/obj_plant1/obj_plant1.yy",},"propertyId":{"name":"anim_attack_up","path":"objects/obj_plant1/obj_plant1.yy",},"resource":{"name":"spr_plant2_attack_up","path":"sprites/spr_plant2_attack_up/spr_plant2_attack_up.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_plant2_attack_up",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_plant1","path":"objects/obj_plant1/obj_plant1.yy",},"propertyId":{"name":"collision_radius","path":"objects/obj_plant1/obj_plant1.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"10",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_plant1","path":"objects/obj_plant1/obj_plant1.yy",},"propertyId":{"name":"attack_radius","path":"objects/obj_plant1/obj_plant1.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"144",},
   ],
   "parent":{
     "name":"Objects",
@@ -33,7 +43,11 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"projectile1","filters":[
+        "GMObject",
+      ],"listItems":[],"multiselect":false,"name":"projectile1","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"obj_plant2_projectile","path":"objects/obj_plant2_projectile/obj_plant2_projectile.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"obj_plant2_projectile","varType":5,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,

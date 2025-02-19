@@ -23,7 +23,7 @@ else if(point_distance(x, y, obj_player1.x, obj_player1.y) < 2)
 else if(direction > 45 && direction < 135)
 {
 	//Play attack animations when near player
-	if(point_distance(x, y, obj_player1.x, obj_player1.y) < 50)
+	if(point_distance(x, y, obj_player1.x, obj_player1.y) < attack_radius)
 	{
 		if(sprite_index != anim_attack_up)
 		{
@@ -40,7 +40,7 @@ else if(direction > 45 && direction < 135)
 }
 else if(direction > 135 && direction < 225)
 {
-	if(point_distance(x, y, obj_player1.x, obj_player1.y) < 50)
+	if(point_distance(x, y, obj_player1.x, obj_player1.y) < attack_radius)
 	{
 		if(sprite_index != anim_attack_left)
 		{
@@ -58,7 +58,7 @@ else if(direction > 135 && direction < 225)
 }
 else if(direction > 225 && direction < 315)
 {
-	if(point_distance(x, y, obj_player1.x, obj_player1.y) < 50)
+	if(point_distance(x, y, obj_player1.x, obj_player1.y) < attack_radius)
 	{
 		if(sprite_index != anim_attack_down)
 		{
@@ -75,7 +75,7 @@ else if(direction > 225 && direction < 315)
 }
 else
 {
-	if(point_distance(x, y, obj_player1.x, obj_player1.y) < 50)
+	if(point_distance(x, y, obj_player1.x, obj_player1.y) < attack_radius)
 	{
 		if(sprite_index != anim_attack_right)
 		{
