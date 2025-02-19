@@ -58,6 +58,8 @@
     {"id":{"name":"spr_plant1_walk_left","path":"sprites/spr_plant1_walk_left/spr_plant1_walk_left.yy",},},
     {"id":{"name":"spr_plant1_walk_right","path":"sprites/spr_plant1_walk_right/spr_plant1_walk_right.yy",},},
     {"id":{"name":"spr_plant1_walk_up","path":"sprites/spr_plant1_walk_up/spr_plant1_walk_up.yy",},},
+    {"id":{"name":"spr_plant2_attack_down","path":"sprites/spr_plant2_attack_down/spr_plant2_attack_down.yy",},},
+    {"id":{"name":"spr_plant2_attack_left","path":"sprites/spr_plant2_attack_left/spr_plant2_attack_left.yy",},},
     {"id":{"name":"spr_player1","path":"sprites/spr_player1/spr_player1.yy",},},
     {"id":{"name":"Sprite14","path":"sprites/Sprite14/Sprite14.yy",},},
     {"id":{"name":"tileset_grass","path":"tilesets/tileset_grass/tileset_grass.yy",},},

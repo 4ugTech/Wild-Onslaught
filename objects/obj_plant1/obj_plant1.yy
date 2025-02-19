@@ -57,6 +57,7 @@
     {"$GMObjectProperty":"v1","%Name":"anim_attack_up","filters":[
         "GMSprite",
       ],"listItems":[],"multiselect":false,"name":"anim_attack_up","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"spr_enemy1_attack_up","path":"sprites/spr_enemy1_attack_up/spr_enemy1_attack_up.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_enemy1_attack_up","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"collision_radius","filters":[],"listItems":[],"multiselect":false,"name":"collision_radius","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"10","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
