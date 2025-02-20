@@ -21,6 +21,7 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_plant1","path":"objects/obj_plant1/obj_plant1.yy",},"propertyId":{"name":"anim_attack_up","path":"objects/obj_plant1/obj_plant1.yy",},"resource":{"name":"spr_plant2_attack_up","path":"sprites/spr_plant2_attack_up/spr_plant2_attack_up.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_plant2_attack_up",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_plant1","path":"objects/obj_plant1/obj_plant1.yy",},"propertyId":{"name":"collision_radius","path":"objects/obj_plant1/obj_plant1.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"10",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_plant1","path":"objects/obj_plant1/obj_plant1.yy",},"propertyId":{"name":"attack_radius","path":"objects/obj_plant1/obj_plant1.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"144",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_plant1","path":"objects/obj_plant1/obj_plant1.yy",},"propertyId":{"name":"point_value","path":"objects/obj_plant1/obj_plant1.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"20",},
   ],
   "parent":{
     "name":"Objects",
