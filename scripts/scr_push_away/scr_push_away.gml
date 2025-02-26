@@ -1,7 +1,7 @@
-function scr_push_away()
+function scr_push_away(obj)
 {
 	//Keep enemies from overlapping by pushing away from each other
-	with (obj_plant1)
+	with (obj)
 	{
 		var collision_radius = 10
 	    // Skip checking with myself
@@ -29,7 +29,7 @@ function scr_push_away()
 	        }
 	    }
 	}
-	with (obj_player1)
+	with (obj)
 	{
 		var collision_radius = 10
 	    // Skip checking with myself

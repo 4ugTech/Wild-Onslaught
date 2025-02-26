@@ -45,9 +45,9 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"projectile1","filters":[
+    {"$GMObjectProperty":"v1","%Name":"projectile","filters":[
         "GMObject",
-      ],"listItems":[],"multiselect":false,"name":"projectile1","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"obj_plant2_projectile","path":"objects/obj_plant2_projectile/obj_plant2_projectile.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"obj_plant2_projectile","varType":5,},
+      ],"listItems":[],"multiselect":false,"name":"projectile","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"obj_plant2_projectile","path":"objects/obj_plant2_projectile/obj_plant2_projectile.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"obj_plant2_projectile","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
