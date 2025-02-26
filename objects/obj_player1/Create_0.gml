@@ -2,6 +2,7 @@ image_speed = 0
 vspeed = 0
 hspeed = 0
 var points = 0
+in_idle = false
 
 //Movement bools
 moving_up = false

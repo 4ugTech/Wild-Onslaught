@@ -22,4 +22,5 @@ function scr_move_horizontal()
 		moving_left = false
 		hspeed = 0
 	}
+	
 }
