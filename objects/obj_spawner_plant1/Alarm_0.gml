@@ -1,5 +1,3 @@
-
-
 if(instance_exists(obj_player1))
 {
 	// Choose a random edge (0 = top, 1 = bottom, 2 = left, 3 = right)
