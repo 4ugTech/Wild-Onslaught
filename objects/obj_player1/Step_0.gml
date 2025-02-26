@@ -135,19 +135,12 @@ else if(moving_down)
 		sprite_index = anim_walk_down
 	}
 }
-else
+else if(sprite_index != anim_idle)
 {
-	if(alarm[0] == -1 && in_idle == false)
-	{
-		alarm[0] = 120
-	}
+	image_index = 0
+	sprite_index = anim_idle
 }
+
 
 //Vertically/Horizontally wrap player character and enemies when approaching world border
 scr_instance_wrap()
-
-
-
-
-
-//set in idle = false after moving 
