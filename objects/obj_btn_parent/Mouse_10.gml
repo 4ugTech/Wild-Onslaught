@@ -5,8 +5,8 @@ with (obj_btn_parent) {
 	} else {
 		image_alpha = 1
 		
-		global.current_button = object_index.btn_number
+		global.current_btn_number = object_index.btn_number
 	}
 }
 
-show_debug_message("Current button: " + string(global.current_button));
+show_debug_message("Current button: " + string(global.current_btn_number));
