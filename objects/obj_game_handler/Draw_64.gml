@@ -2,12 +2,11 @@ if(room == EmeraldForest)
 {
 	
 	//Draw healthbar
-	draw_healthbar(25, 50, 400, 25, hp, c_black, c_red, c_lime, 0, true, true);
-
-	//Draw score
-	draw_set_font(font_score)
-	draw_text(50, 75, "Score: " + string(score))
-
+	draw_healthbar(25, 25, 400, 50, hp, c_black, c_red, c_lime, 0, true, true)
+	
+	//Draw exp bar
+	draw_healthbar(25, 60, 350, 70, xp, c_black, c_blue, c_teal, 0, true, true)
+	
 	//Draw timer
 	seconds = floor(in_game_frame / 60)
 

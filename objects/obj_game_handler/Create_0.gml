@@ -5,6 +5,7 @@ in_game = false
 is_running = false
 
 hp = 100
+xp = 0
 temp_hp = 100
 in_game_frame = 0
 minutes = 0

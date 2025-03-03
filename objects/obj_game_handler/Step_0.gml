@@ -8,6 +8,7 @@ if(room == EmeraldForest && hp <= 0)
 		in_game_frame = 0
 		hp = 100
 		score = 0
+		xp = 0
 	}
 }
 //Start game time stopwatch
