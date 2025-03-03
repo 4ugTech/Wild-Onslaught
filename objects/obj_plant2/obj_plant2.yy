@@ -22,6 +22,7 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_plant1","path":"objects/obj_plant1/obj_plant1.yy",},"propertyId":{"name":"collision_radius","path":"objects/obj_plant1/obj_plant1.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"10",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_plant1","path":"objects/obj_plant1/obj_plant1.yy",},"propertyId":{"name":"attack_radius","path":"objects/obj_plant1/obj_plant1.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"144",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_plant1","path":"objects/obj_plant1/obj_plant1.yy",},"propertyId":{"name":"point_value","path":"objects/obj_plant1/obj_plant1.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"20",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_plant1","path":"objects/obj_plant1/obj_plant1.yy",},"propertyId":{"name":"anim_death","path":"objects/obj_plant1/obj_plant1.yy",},"resource":{"name":"obj_plant2_death","path":"objects/obj_plant2_death/obj_plant2_death.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"obj_plant2_death",},
   ],
   "parent":{
     "name":"Objects",

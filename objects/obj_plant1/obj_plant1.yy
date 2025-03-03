@@ -6,6 +6,7 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_player1","path":"objects/obj_player1/obj_player1.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_plant1",
@@ -57,6 +58,7 @@
     {"$GMObjectProperty":"v1","%Name":"anim_attack_up","filters":[
         "GMSprite",
       ],"listItems":[],"multiselect":false,"name":"anim_attack_up","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"spr_enemy1_attack_up","path":"sprites/spr_enemy1_attack_up/spr_enemy1_attack_up.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_enemy1_attack_up","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"anim_death","filters":[],"listItems":[],"multiselect":false,"name":"anim_death","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"obj_plant1_death","path":"objects/obj_plant1_death/obj_plant1_death.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"obj_plant1_death","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"collision_radius","filters":[],"listItems":[],"multiselect":false,"name":"collision_radius","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"10","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"attack_radius","filters":[],"listItems":[],"multiselect":false,"name":"attack_radius","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"50","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"point_value","filters":[],"listItems":[],"multiselect":false,"name":"point_value","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"10","varType":0,},
