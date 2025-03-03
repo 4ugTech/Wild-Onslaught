@@ -5,6 +5,7 @@ if(room == EmeraldForest && hp <= 0)
 	if(keyboard_check_pressed(vk_enter))
 	{
 		room_restart()	
+		minutes = 0
 		in_game_frame = 0
 		hp = 100
 		score = 0
