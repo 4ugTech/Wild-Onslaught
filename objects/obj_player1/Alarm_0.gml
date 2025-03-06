@@ -3,6 +3,7 @@ if(instance_exists(obj_player1))
 	if(!instance_exists(anim_attack1) && attack_num == 0)
 	{
 		instance_create_layer(obj_player1.x, obj_player1.y, "Instances", anim_attack1)
+		instance_create_layer(obj_player1.x, obj_player1.y, "Instances", anim_magic_bolt) 
 		alarm[0] = attack_cooldown
 		attack_num = 1
 	}
