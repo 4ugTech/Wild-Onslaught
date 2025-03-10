@@ -7,6 +7,7 @@ draw_set_color(c_yellow);
 draw_text(room_width/2, 50, "HOW TO PLAY");
 draw_set_color(c_white);
 
+
 // Page 1 content
 if (room == page1_room) {
     // Game goal section

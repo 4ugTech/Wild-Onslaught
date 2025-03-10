@@ -12,11 +12,11 @@ if(room == EmeraldForest)
 
 	if(seconds < 10)
 	{
-		draw_text(1250, 25, string(minutes) + " : " + "0" + string(seconds))
+		draw_text(1150, 25, string(minutes) + " : " + "0" + string(seconds))
 	}
 	else
 	{
-		draw_text(1250, 25, string(minutes) + " : " + string(seconds))	
+		draw_text(1150, 25, string(minutes) + " : " + string(seconds))	
 	}
 	
 	if(seconds >= 60)
