@@ -13,3 +13,9 @@ if(keyboard_check_pressed(ord("H")))
 		infinite_health = false
 	}
 }
+
+// Cheat code to set health to zero for instant death
+if(keyboard_check_pressed(ord("D")))
+{
+    hp = 0;
+}

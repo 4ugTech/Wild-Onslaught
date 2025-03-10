@@ -8,6 +8,7 @@ if(room == EmeraldForest)
 	draw_healthbar(25, 60, 350, 70, xp, c_black, c_blue, c_teal, 0, true, true)
 	
 	//Draw timer
+	draw_set_font(font_title);
 	seconds = floor(in_game_frame / 60)
 
 	if(seconds < 10)
