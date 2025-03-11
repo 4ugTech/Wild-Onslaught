@@ -19,11 +19,13 @@ if(instance_exists(obj_player1))
 		{
 			if(place_meeting(x, y, other))
 			{
+				image_blend = make_colour_rgb(255, 68, 0)
+				alarm[1] = 20
 				hp -= obj_player1.damage
 				if(hp <= 0)
 				{
 					instance_destroy()
-				}	
+				}
 			}
 		}
 		alarm[0] = obj_player1.attack_cooldown

@@ -4,6 +4,8 @@ vspeed = 0
 hspeed = 0
 points = 0
 
+
+
 //Movement bools
 moving_left = false
 moving_right = true
