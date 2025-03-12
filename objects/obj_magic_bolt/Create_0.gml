@@ -1,3 +1,5 @@
+audio_play_sound(snd_magic_bolt, 1, 0)
+
 speed = bolt_speed 
 alarm[0] = 300
 

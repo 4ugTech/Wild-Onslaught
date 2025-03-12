@@ -14,6 +14,7 @@ if(instance_exists(obj_player1))
 	//Start damage timer
 	if(alarm[0] == -1)
 	{
+		audio_play_sound(snd_slash, 1, 0)
 		//Deal damage to all enemies that collide 
 		with(obj_plant1)
 		{
