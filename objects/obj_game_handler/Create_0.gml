@@ -3,6 +3,7 @@ fullscreen = true
 infinite_health = false
 in_game = false
 is_running = false
+has_shield = false
 
 hp = 100
 xp = 0
@@ -11,9 +12,10 @@ in_game_frame = 0
 minutes = 0
 seconds = 0
 stopwatch_time = 0
-plant1_kills = 0;
-plant2_kills = 0;
-total_kills = 0;
+plant1_kills = 0
+plant2_kills = 0
+total_kills = 0
+shield_cooldown = 300
 
 
 score = 0

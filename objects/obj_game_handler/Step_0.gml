@@ -37,3 +37,9 @@ if(keyboard_check_pressed(vk_escape))
 {
     game_end();
 }
+
+//Restores the players shield after cooldown if unlocked
+if(has_shield == true && instance_exists(obj_shield))
+{
+	alarm[1] = shield_cooldown	               
+}

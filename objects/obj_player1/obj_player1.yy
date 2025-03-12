@@ -46,6 +46,7 @@
     {"$GMObjectProperty":"v1","%Name":"damage","filters":[],"listItems":[],"multiselect":false,"name":"damage","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"50","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"attack_cooldown","filters":[],"listItems":[],"multiselect":false,"name":"attack_cooldown","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"60","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"anim_magic_bolt","filters":[],"listItems":[],"multiselect":false,"name":"anim_magic_bolt","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"obj_magic_bolt","path":"objects/obj_magic_bolt/obj_magic_bolt.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"obj_magic_bolt","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"anim_shield","filters":[],"listItems":[],"multiselect":false,"name":"anim_shield","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"obj_shield","path":"objects/obj_shield/obj_shield.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"obj_shield","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
