@@ -11,11 +11,11 @@ draw_set_color(c_white)
 draw_set_font(font_score);
 
 // Total kills
-draw_text(1100, 370, "Total Enemies Killed: " + string(global.stored_total_kills));
+draw_text(1100, 370, "Total Enemies Killed: " + string(obj_game_handler.total_kills));
 
 // Enemy type breakdown
-draw_text(1128, 420, "Melee Plant Kills: " + string(global.stored_plant1_kills));
-draw_text(1118, 470, "Ranged Plant Kills: " + string(global.stored_plant2_kills));
+draw_text(1128, 420, "Melee Plant Kills: " + string(obj_game_handler.obj_plant1_kills));
+draw_text(1118, 470, "Ranged Plant Kills: " + string(obj_game_handler.obj_plant2_kills));
 
 // Reset alignment
 draw_set_halign(fa_left);
