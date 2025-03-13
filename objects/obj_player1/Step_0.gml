@@ -1,43 +1,80 @@
+if(alarm[0] = -1)
+{
+	alarm[0] = 1
+}
 
-
-//Handle horizontal movement
-if(keyboard_check(vk_left) && keyboard_check(vk_right))
+if(obj_game_handler.game_paused)
 {
 	hspeed = 0
-}
-else if(keyboard_check(vk_right))
-{	
-	moving_right = true
-	moving_left = false
-	hspeed = move_speed	
-}
-else if(keyboard_check(vk_left))
-{
-	moving_left = true
-	moving_right = false
-	hspeed = -move_speed		
-}
-else
-{	
-	hspeed = 0
-}
-
-//Handle vertical movement
-if(keyboard_check(vk_up) && keyboard_check(vk_down))
-{
 	vspeed = 0
-}
-else if(keyboard_check(vk_up))
-{
-	vspeed = -move_speed
-}
-else if(keyboard_check(vk_down))
-{
-	vspeed = move_speed
+
 }
 else
 {
-	vspeed = 0
+	//Handle horizontal movement
+	if(keyboard_check(vk_left) && keyboard_check(vk_right))
+	{
+		hspeed = 0
+	}
+	else if(keyboard_check(vk_right))
+	{	
+		moving_right = true
+		moving_left = false
+		hspeed = move_speed	
+	}
+	else if(keyboard_check(vk_left))
+	{
+		moving_left = true
+		moving_right = false
+		hspeed = -move_speed		
+	}
+	else
+	{	
+		hspeed = 0
+	}
+
+	//Handle vertical movement
+	if(keyboard_check(vk_up) && keyboard_check(vk_down))
+	{
+		vspeed = 0
+	}
+	else if(keyboard_check(vk_up))
+	{
+		vspeed = -move_speed
+	}
+	else if(keyboard_check(vk_down))
+	{
+		vspeed = move_speed
+	}
+	else
+	{
+		vspeed = 0
+	}
+
+	//Set animations 
+	if(moving_right && speed > 0)
+	{
+		image_speed = 1
+		if(sprite_index != anim_walk_right)
+		{
+			image_index = 0
+			sprite_index = anim_walk_right
+		}
+	}
+	else if(moving_left && speed > 0)
+	{
+		image_speed = 1
+		
+		if(sprite_index != anim_walk_left)
+		{
+			image_index = 0
+			sprite_index = anim_walk_left
+		}
+	}
+	else
+	{
+		image_speed = 0
+	}	
 }
 
 
@@ -50,29 +87,7 @@ if (hspeed != 0 && vspeed != 0)
 
 
 
-if(moving_right && speed > 0)
-{
-	image_speed = 1
-	if(sprite_index != anim_walk_right)
-	{
-		image_index = 0
-		sprite_index = anim_walk_right
-	}
-}
-else if(moving_left && speed > 0)
-{
-	image_speed = 1
-		
-	if(sprite_index != anim_walk_left)
-	{
-		image_index = 0
-		sprite_index = anim_walk_left
-	}
-}
-else
-{
-	image_speed = 0
-}
+
 
 
 //Vertically/Horizontally wrap player character and enemies when approaching world border

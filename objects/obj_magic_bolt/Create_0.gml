@@ -2,6 +2,8 @@ audio_play_sound(snd_magic_bolt, 1, 0)
 
 speed = bolt_speed 
 alarm[0] = 300
+temp_alarm = 0
+alarm_paused = false
 
 part_effects = part_system_create(part_magic_bolt)
 

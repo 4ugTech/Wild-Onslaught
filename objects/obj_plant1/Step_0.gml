@@ -1,116 +1,115 @@
-
-
-// Decide if we're already attacking
-var already_attacking = (sprite_index == anim_attack_up)
-                     || (sprite_index == anim_attack_down)
-                     || (sprite_index == anim_attack_left)
-                     || (sprite_index == anim_attack_right);
-					 
-// First, follow the player
-if(!already_attacking)
+if(obj_game_handler.game_paused == true)
 {
-	scr_follow_instance(obj_player1);	
-}
-
-// If we are currently playing an attack animation, only switch out once it's finished
-if (already_attacking)
-{
-    // If the animation has reached the final frame where we want to switch back
-    if (floor(image_index) == 6)
-    {
-        // Switch to the correct walk sprite depending on the direction at that moment
-        if (direction > 45 && direction < 135)
-        {
-            sprite_index = anim_walk_up;
-        }
-        else if (direction > 135 && direction < 225)
-        {
-            sprite_index = anim_walk_left;
-        }
-        else if (direction > 225 && direction < 315)
-        {
-            sprite_index = anim_walk_down;
-        }
-        else
-        {
-            sprite_index = anim_walk_right;
-        }
-        image_speed = 1;
-    }
+	scr_pause_object()
 }
 else
 {
-    // Only run your direction-choosing code if not already attacking
-    if (!(instance_exists(obj_player1)))
-    {
-        sprite_index = anim_idle;
-        image_speed  = 1;
-    }
-    else if (point_distance(x, y, obj_player1.x, obj_player1.y) < 2)
-    {
-        // Very close, use down-attack as a "placeholder" or special case?
-        sprite_index = anim_attack_down;
-        image_speed  = 1;
-    }
-    else if (direction > 45 && direction < 135)
-    {
-        // Check if within attack range
-        if (point_distance(x, y, obj_player1.x, obj_player1.y) < attack_radius)
-        {
-            sprite_index = anim_attack_up;
-            image_index  = 0;
-            image_speed  = 1;
-        }
-        else
-        {
-            sprite_index = anim_walk_up;
-            image_speed  = 1;
-        }
-    }
-    else if (direction > 135 && direction < 225)
-    {
-        if (point_distance(x, y, obj_player1.x, obj_player1.y) < attack_radius)
-        {
-            sprite_index = anim_attack_left;
-            image_index  = 0;
-            image_speed  = 1;
-        }
-        else
-        {
-            sprite_index = anim_walk_left;
-            image_speed  = 1;
-        }
-    }
-    else if (direction > 225 && direction < 315)
-    {
-        if (point_distance(x, y, obj_player1.x, obj_player1.y) < attack_radius)
-        {
-            sprite_index = anim_attack_down;
-            image_index  = 0;
-            image_speed  = 1;
-        }
-        else
-        {
-            sprite_index = anim_walk_down;
-            image_speed  = 1;
-        }
-    }
-    else
-    {
-        if (point_distance(x, y, obj_player1.x, obj_player1.y) < attack_radius)
-        {
-            sprite_index = anim_attack_right;
-            image_index  = 0;
-            image_speed  = 1;
-        }
-        else
-        {
-            sprite_index = anim_walk_right;
-            image_speed  = 1;
-        }
-    }
+	image_speed = 1
+	// Decide if we're already attacking
+	var already_attacking = (sprite_index == anim_attack_up)
+	                     || (sprite_index == anim_attack_down)
+	                     || (sprite_index == anim_attack_left)
+	                     || (sprite_index == anim_attack_right);
+	
+	if(instance_exists(obj_player1))
+	{
+		// First, follow the player
+		if(!already_attacking)
+		{
+			scr_follow_instance(obj_player1)
+		}
+
+		//If player is above 
+		if (direction > 45 && direction < 135)
+		{
+			if(!already_attacking && point_distance(x, y, obj_player1.x, obj_player1.y) > attack_radius)
+			{
+				//Reset image index to 0 if switching from another sprite
+				if(sprite_index != anim_walk_up)
+				{
+					image_index = 0	
+					sprite_index = anim_walk_up
+				}
+			}
+			else if(!already_attacking && point_distance(x, y, obj_player1.x, obj_player1.y) <= attack_radius)
+			{	
+				image_index = 0
+				sprite_index = anim_attack_up	
+			}
+			else if(already_attacking && image_index >= image_number - 1)
+			{
+				sprite_index = anim_walk_up	
+			}
+		}
+		//If player is to the left 
+		else if (direction > 135 && direction < 225)
+		{
+			if(!already_attacking && point_distance(x, y, obj_player1.x, obj_player1.y) > attack_radius)
+			{
+				//Reset image index to 0 if switching from another sprite
+				if(sprite_index != anim_walk_left)
+				{
+					image_index = 0	
+					sprite_index = anim_walk_left
+				}
+			}
+			else if(!already_attacking && point_distance(x, y, obj_player1.x, obj_player1.y) <= attack_radius)
+			{	
+				image_index = 0
+				sprite_index = anim_attack_left	
+			}
+			else if(already_attacking && image_index >= image_number - 1)
+			{
+				sprite_index = anim_walk_left	
+			}
+		}
+		//If player is below
+		else if (direction > 225 && direction < 315)
+		{
+			if(!already_attacking && point_distance(x, y, obj_player1.x, obj_player1.y) > attack_radius)
+			{
+				//Reset image index to 0 if switching from another sprite
+				if(sprite_index != anim_walk_down)
+				{
+					image_index = 0	
+					sprite_index = anim_walk_down
+				}
+			}
+			else if(!already_attacking && point_distance(x, y, obj_player1.x, obj_player1.y) <= attack_radius)
+			{	
+				image_index = 0
+				sprite_index = anim_attack_down	
+			}
+			else if(already_attacking && image_index >= image_number - 1)
+			{
+				sprite_index = anim_walk_down	
+			}
+		}
+		//If player is to the right
+		else
+		{
+			if(!already_attacking && point_distance(x, y, obj_player1.x, obj_player1.y) > attack_radius)
+			{
+				//Reset image index to 0 if switching from another sprite
+				if(sprite_index != anim_walk_right)
+				{
+					image_index = 0	
+					sprite_index = anim_walk_right
+				}
+			}
+			else if(!already_attacking && point_distance(x, y, obj_player1.x, obj_player1.y) <= attack_radius)
+			{	
+				image_index = 0
+				sprite_index = anim_attack_right
+			}
+			else if(already_attacking && image_index >= image_number - 1)
+			{
+				sprite_index = anim_walk_right	
+			}
+		}
+	}
+	
+	scr_push_away(obj_plant1);
+	scr_push_away(obj_player1);
 }
 
-// Keep enemies from overlapping by pushing away from each other
-scr_push_away(obj_plant1);
-scr_push_away(obj_player1);

@@ -19,3 +19,8 @@ if(keyboard_check_pressed(ord("D")))
 {
     hp = 0;
 }
+
+if(keyboard_check_pressed(ord("P")))
+{
+    instance_create_layer(x, y, "Instances_1", obj_ability_menu)
+}
