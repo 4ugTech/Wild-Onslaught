@@ -1,12 +1,6 @@
-// Restart game after death with "enter"
+
 if(room == EmeraldForest && hp <= 0)
 {
-	with(obj_magic_bolt) {
-        instance_destroy();
-    }
-    with(obj_plant2_projectile) {
-        instance_destroy();
-    }
     room_goto(rm_death_screen);
 }
 

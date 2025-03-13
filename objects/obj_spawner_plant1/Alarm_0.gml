@@ -40,5 +40,6 @@ if(instance_exists(obj_player1))
 	}
 
 	alarm[0] = 60
+	show_debug_message("enemy spawned")
 }
 
