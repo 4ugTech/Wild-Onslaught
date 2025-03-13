@@ -20,6 +20,14 @@ function scr_instance_wrap()
 		{
 	        x += offset_x;
 	    }
+		with(obj_plant2_projectile)
+		{
+			x += offset_x	
+		}
+		with(obj_magic_bolt)
+		{
+			x += offset_x	
+		}
 	}
 	
 	//Vertical wrap player character and enemies when approaching world border

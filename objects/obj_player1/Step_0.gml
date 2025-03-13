@@ -85,11 +85,6 @@ if (hspeed != 0 && vspeed != 0)
     vspeed *= 0.707;
 }
 
-
-
-
-
-
 //Vertically/Horizontally wrap player character and enemies when approaching world border
 scr_instance_wrap()
 
