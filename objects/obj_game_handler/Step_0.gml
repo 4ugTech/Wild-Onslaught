@@ -10,21 +10,16 @@ if(room == EmeraldForest && hp <= 0)
     room_goto(rm_death_screen);
 }
 
-//Close game with "escape"
-if(keyboard_check_pressed(vk_escape) && game_paused == false)
-{
-    game_paused = true
-	show_debug_message("game paused")
-}
-else if(keyboard_check_pressed(vk_escape))
-{
-	game_paused = false	
-	show_debug_message("game unpaused")
 
-}
 
 if(game_paused)
 {
+	//if(!instance_exists(obj_btn_resume))
+	//{
+	//	instance_create_layer(obj_player1.x, obj_player1.y, "instances", obj_btn_resume)
+	//}
+	
+	
 	//Store previous alarm value in temporary values and disable alarms 
 	if(!alarm_paused)
 	{
