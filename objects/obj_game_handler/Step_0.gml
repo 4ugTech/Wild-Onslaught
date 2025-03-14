@@ -29,7 +29,7 @@ else if(!in_game)
 }
 
 //Pause music if game paused
-if(game_paused || game_powerup_selection)
+if(game_paused)
 {
 	audio_pause_sound(snd_gameplay_music)	
 }
@@ -38,7 +38,7 @@ else
 	audio_resume_sound(snd_gameplay_music)	
 }
 
-if(game_paused || game_powerup_selection)
+if(game_paused)
 {
 	//if(!instance_exists(obj_btn_resume))
 	//{
