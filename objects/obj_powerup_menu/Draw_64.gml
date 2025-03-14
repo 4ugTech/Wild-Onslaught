@@ -1,7 +1,8 @@
+
 // First, draw darkened background
 draw_set_color(c_black);
 draw_set_alpha(0.7);
-draw_rectangle(0, 0, display_get_gui_width(), display_get_gui_height(), false);
+draw_rectangle(0, 0, screen_width, screen_height, false);
 draw_set_alpha(1);
 
 // Draw title text
@@ -9,33 +10,41 @@ draw_set_font(font_title);
 draw_set_halign(fa_center);
 draw_set_valign(fa_middle);
 draw_set_color(c_white);
-draw_text(display_get_gui_width()/2, 100, "Choose a Power Up!");
+draw_text(screen_width/2, 100, "Choose a Power Up!");
 
-// Get number of available powerups
-var num_powerups = ds_list_size(available_powerups);
 
-// Calculate total width needed
-var total_width = (num_powerups * button_width) + ((num_powerups-1) * button_spacing);
-var start_x = (display_get_gui_width() - total_width) / 2;
-var button_y = display_get_gui_height() / 2;
 
 // Draw each available powerup button
 for(var i = 0; i < num_powerups; i++)
 {
     var current_x = start_x + (i * (button_width + button_spacing));
     
+	//Get current powerup type
+    var powerup_type = ds_list_find_value(obj_game_handler.available_powerups, i);
+	
+	//Checks if mouse is hovering over the current button
+	var mouse_hover = scr_button_hover(current_x)
+	
+	
+
     // Draw button background
     draw_set_color(c_gray);
     draw_rectangle(current_x, button_y - button_height/2, 
-                  current_x + button_width, button_y + button_height/2, false);
+                   current_x + button_width, button_y + button_height/2, false);
     
     // Draw button border
-    draw_set_color(c_white);
+	if(mouse_hover)
+	{
+		draw_set_color(c_red);
+	}
+	else
+	{
+		draw_set_color(c_white);
+	}
     draw_rectangle(current_x, button_y - button_height/2, 
-                  current_x + button_width, button_y + button_height/2, true);
+                   current_x + button_width, button_y + button_height/2, true);
     
-    // Get current powerup type
-    var powerup_type = ds_list_find_value(available_powerups, i);
+    
     
     // Draw the powerup name in a larger font
     draw_set_font(font_menu);

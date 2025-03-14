@@ -81,7 +81,7 @@ else
 	//Restores the players shield after cooldown if unlocked
 	if(instance_exists(obj_player1))
 	{
-		if(has_shield == true && !instance_exists(obj_shield))
+		if(shield_level >= 1 && !instance_exists(obj_shield))
 		{
 			if(alarm[1] == -1)
 			{

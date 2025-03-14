@@ -3,14 +3,10 @@ fullscreen = true
 infinite_health = false
 in_game = false
 is_running = false
-has_shield = false
 game_paused = false
 alarm_paused = false
 game_music_playing = false
 game_powerup_selection = false;
-has_shield = false;
-has_magic_bolt = false;
-has_shurikens = false;
 
 hp = 100
 xp = 0
@@ -30,7 +26,12 @@ temp_plant2_kills = 0
 total_kills = 0
 temp_total_kills = 0
 
+shield_level = 0
+magic_bolt_level = 0
+shuriken_level = 0
+
+available_powerups = ds_list_create();
+ds_list_add(available_powerups, "health", "magic", "shield", "shuriken");
 
 score = 0
-
 

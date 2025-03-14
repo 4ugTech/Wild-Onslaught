@@ -89,6 +89,8 @@
     {"id":{"name":"rm_main_menu","path":"rooms/rm_main_menu/rm_main_menu.yy",},},
     {"id":{"name":"scr_animate_movement","path":"scripts/scr_animate_movement/scr_animate_movement.yy",},},
     {"id":{"name":"scr_apply_powerup","path":"scripts/scr_apply_powerup/scr_apply_powerup.yy",},},
+    {"id":{"name":"scr_button_hover","path":"scripts/scr_button_hover/scr_button_hover.yy",},},
+    {"id":{"name":"scr_exit_powerup_menu","path":"scripts/scr_exit_powerup_menu/scr_exit_powerup_menu.yy",},},
     {"id":{"name":"scr_follow_instance","path":"scripts/scr_follow_instance/scr_follow_instance.yy",},},
     {"id":{"name":"scr_instance_wrap","path":"scripts/scr_instance_wrap/scr_instance_wrap.yy",},},
     {"id":{"name":"scr_pause_object","path":"scripts/scr_pause_object/scr_pause_object.yy",},},
