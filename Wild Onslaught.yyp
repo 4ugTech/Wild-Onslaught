@@ -118,6 +118,7 @@
     {"id":{"name":"spr_health","path":"sprites/spr_health/spr_health.yy",},},
     {"id":{"name":"spr_magic_bolt_concept","path":"sprites/spr_magic_bolt_concept/spr_magic_bolt_concept.yy",},},
     {"id":{"name":"spr_magic_bolt","path":"sprites/spr_magic_bolt/spr_magic_bolt.yy",},},
+    {"id":{"name":"spr_pause_symbol","path":"sprites/spr_pause_symbol/spr_pause_symbol.yy",},},
     {"id":{"name":"spr_plant1_death","path":"sprites/spr_plant1_death/spr_plant1_death.yy",},},
     {"id":{"name":"spr_plant2_attack_down","path":"sprites/spr_plant2_attack_down/spr_plant2_attack_down.yy",},},
     {"id":{"name":"spr_plant2_attack_left","path":"sprites/spr_plant2_attack_left/spr_plant2_attack_left.yy",},},
