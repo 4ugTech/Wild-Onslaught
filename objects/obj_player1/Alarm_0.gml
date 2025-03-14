@@ -5,8 +5,7 @@ else{
 		if(!instance_exists(anim_attack1) && attack_num == 0)
 		{
 			//instance_create_depth(obj_player1.x, obj_player1.y, 75, anim_attack1)
-			//instance_create_depth(obj_player1.x, obj_player1.y, 75, anim_magic_bolt) 
-			instance_create_layer(obj_player1.x, obj_player1.y, 75, anim_shuriken1) 
+			//instance_create_depth(obj_player1.x, obj_player1.y, 75, anim_magic_bolt)  
 			alarm[0] = attack_cooldown
 			attack_num = 1
 		}

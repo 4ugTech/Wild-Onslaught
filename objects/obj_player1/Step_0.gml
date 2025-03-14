@@ -7,6 +7,7 @@ if(obj_game_handler.game_paused)
 {
 	hspeed = 0
 	vspeed = 0
+	image_speed = 0
 }
 else
 {
