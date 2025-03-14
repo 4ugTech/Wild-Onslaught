@@ -88,7 +88,6 @@
     {"id":{"name":"rm_how_to_play_2","path":"rooms/rm_how_to_play_2/rm_how_to_play_2.yy",},},
     {"id":{"name":"rm_main_menu","path":"rooms/rm_main_menu/rm_main_menu.yy",},},
     {"id":{"name":"scr_animate_movement","path":"scripts/scr_animate_movement/scr_animate_movement.yy",},},
-    {"id":{"name":"scr_apply_powerup","path":"scripts/scr_apply_powerup/scr_apply_powerup.yy",},},
     {"id":{"name":"scr_button_hover","path":"scripts/scr_button_hover/scr_button_hover.yy",},},
     {"id":{"name":"scr_exit_powerup_menu","path":"scripts/scr_exit_powerup_menu/scr_exit_powerup_menu.yy",},},
     {"id":{"name":"scr_follow_instance","path":"scripts/scr_follow_instance/scr_follow_instance.yy",},},

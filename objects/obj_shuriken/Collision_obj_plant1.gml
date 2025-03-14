@@ -1,4 +1,4 @@
-if(!other.invincible)
+if(!other.invincible && !obj_game_handler.game_paused)
 {
 
 	other.invincible = true
@@ -11,4 +11,8 @@ if(!other.invincible)
 	
 	other.image_blend = make_colour_rgb(255, 68, 0)
 	other.alarm[1] = 20
+}
+else if(obj_game_handler.game_paused)
+{
+	other.alarm[2] = other.i_frames	
 }

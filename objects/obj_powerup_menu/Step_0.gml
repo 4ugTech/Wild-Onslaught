@@ -58,6 +58,7 @@ for (var i = 0; i < num_powerups; i++)
 			scr_exit_powerup_menu()
 			ds_list_delete(obj_game_handler.available_powerups, ds_list_find_index(obj_game_handler.available_powerups, "shield"))
 		}
+		//Shuriken Levels
 		else if(powerup_type == "shuriken" && obj_game_handler.shuriken_level < 1)
 		{
 			instance_create_depth(obj_player1.x, obj_player1.y, 50, obj_shuriken)
