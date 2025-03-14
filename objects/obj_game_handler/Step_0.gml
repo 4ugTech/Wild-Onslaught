@@ -13,6 +13,7 @@ if(xp >= 100 && !instance_exists(obj_powerup_menu))
     
     // Pause the game
     game_powerup_selection = true;
+	game_paused = true
 }
 
 //play game music

@@ -29,29 +29,34 @@ if(room == EmeraldForest)
 	
 	if(game_paused)
 	{
-		draw_set_color(c_black);
-		draw_set_alpha(.6)
-		draw_rectangle(0, 0, display_get_width(), display_get_height(), false)
-		draw_set_alpha(1)
 		
-		//Using GUI center coordinates
-		var gui_width = display_get_gui_width();
-	    var gui_height = display_get_gui_height();
-	    var center_x = gui_width / 2;
-	    var center_y = gui_height / 2;
+		
+		if(!game_powerup_selection)
+		{
+			draw_set_color(c_black);
+			draw_set_alpha(.6)
+			draw_rectangle(0, 0, display_get_width(), display_get_height(), false)
+			draw_set_alpha(1)
+			//Using GUI center coordinates
+			var gui_width = display_get_gui_width();
+		    var gui_height = display_get_gui_height();
+		    var center_x = gui_width / 2;
+		    var center_y = gui_height / 2;
    
-	    var rect_width = 30;
-	    var rect_height = 150;
-	    var spacing = 20;
+		    var rect_width = 30;
+		    var rect_height = 150;
+		    var spacing = 20;
     
-	    // Draw the two rectangles (white by default)
-	    draw_set_color(c_white);
-	    // Left rectangle
-	    draw_rectangle(center_x - spacing - rect_width, center_y - rect_height/2, 
-	                  center_x - spacing, center_y + rect_height/2, false);
-	    // Right rectangle
-	    draw_rectangle(center_x + spacing, center_y - rect_height/2, 
-	                  center_x + spacing + rect_width, center_y + rect_height/2, false);
+		    // Draw the two rectangles (white by default)
+		    draw_set_color(c_white);
+		    // Left rectangle
+		    draw_rectangle(center_x - spacing - rect_width, center_y - rect_height/2, 
+		                  center_x - spacing, center_y + rect_height/2, false);
+		    // Right rectangle
+		    draw_rectangle(center_x + spacing, center_y - rect_height/2, 
+		                  center_x + spacing + rect_width, center_y + rect_height/2, false);
+		}
+		
 	}
 }
 

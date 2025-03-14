@@ -19,3 +19,9 @@ if(keyboard_check_pressed(ord("D")))
 {
     hp = 0;
 }
+
+// Cheat code to fill xp bar
+if(keyboard_check_pressed(ord("X")))
+{
+    xp = 100
+}

@@ -78,6 +78,8 @@ for(var i = 0; i < num_powerups; i++)
     
     // Draw the description text with scaling
     draw_text_transformed(desc_x, desc_y, description, text_scale, text_scale, 0);
+	
+	
 }
 
 // Reset text alignment
