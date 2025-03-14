@@ -93,6 +93,7 @@
     {"id":{"name":"scr_push_away","path":"scripts/scr_push_away/scr_push_away.yy",},},
     {"id":{"name":"snd_buttons","path":"sounds/snd_buttons/snd_buttons.yy",},},
     {"id":{"name":"snd_death_screen","path":"sounds/snd_death_screen/snd_death_screen.yy",},},
+    {"id":{"name":"snd_gameplay_music","path":"sounds/snd_gameplay_music/snd_gameplay_music.yy",},},
     {"id":{"name":"snd_magic_bolt","path":"sounds/snd_magic_bolt/snd_magic_bolt.yy",},},
     {"id":{"name":"snd_projectile","path":"sounds/snd_projectile/snd_projectile.yy",},},
     {"id":{"name":"snd_slash","path":"sounds/snd_slash/snd_slash.yy",},},

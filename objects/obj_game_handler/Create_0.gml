@@ -6,6 +6,7 @@ is_running = false
 has_shield = false
 game_paused = false
 alarm_paused = false
+game_music_playing = false
 
 hp = 100
 xp = 0

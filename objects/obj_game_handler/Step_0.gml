@@ -1,6 +1,29 @@
 if(room == EmeraldForest && hp <= 0)
 {
     room_goto(rm_death_screen);
+	audio_play_sound(snd_death_screen, 1, 0)
+}
+
+//play game music
+if(in_game && !game_music_playing)
+{
+	game_music_playing = true
+	audio_play_sound(snd_gameplay_music, 1, 1)
+}
+else if(!in_game)
+{
+	game_music_playing = false
+	audio_stop_sound(snd_gameplay_music)
+}
+
+//Pause music if game paused
+if(game_paused)
+{
+	audio_pause_sound(snd_gameplay_music)	
+}
+else
+{
+	audio_resume_sound(snd_gameplay_music)	
 }
 
 if(game_paused)

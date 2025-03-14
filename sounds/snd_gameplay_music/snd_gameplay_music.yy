@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"snd_death_screen",
+  "%Name":"snd_gameplay_music",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":2.181814,
-  "name":"snd_death_screen",
+  "duration":96.192,
+  "name":"snd_gameplay_music",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_death_screen.wav",
+  "soundFile":"snd_gameplay_music.mp3",
   "type":0,
   "volume":0.2,
 }
