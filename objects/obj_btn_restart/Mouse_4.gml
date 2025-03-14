@@ -9,7 +9,8 @@ with (obj_game_handler) {
     score = 0;
     xp = 0;
     seconds = 0;
-	plant1_kills = 0;
-    plant2_kills = 0;
+	obj_plant1_kills = 0;
+    obj_plant2_kills = 0;
     total_kills = 0;
 }
+

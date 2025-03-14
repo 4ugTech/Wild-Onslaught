@@ -7,3 +7,4 @@ moving_up = false
 moving_down = false
 moving_left = false
 moving_right = false
+

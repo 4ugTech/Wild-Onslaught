@@ -7,7 +7,6 @@ if(obj_game_handler.game_paused)
 {
 	hspeed = 0
 	vspeed = 0
-
 }
 else
 {
@@ -20,12 +19,16 @@ else
 	{	
 		moving_right = true
 		moving_left = false
+		moving_up = false
+		moving_down = false
 		hspeed = move_speed	
 	}
 	else if(keyboard_check(vk_left))
 	{
 		moving_left = true
 		moving_right = false
+		moving_up = false
+		moving_down = false
 		hspeed = -move_speed		
 	}
 	else
@@ -40,10 +43,14 @@ else
 	}
 	else if(keyboard_check(vk_up))
 	{
+		moving_up = true
+		moving_down = false
 		vspeed = -move_speed
 	}
 	else if(keyboard_check(vk_down))
 	{
+		moving_up = false
+		moving_down = true
 		vspeed = move_speed
 	}
 	else

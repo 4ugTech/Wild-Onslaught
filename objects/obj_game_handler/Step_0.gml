@@ -1,10 +1,7 @@
-
 if(room == EmeraldForest && hp <= 0)
 {
     room_goto(rm_death_screen);
 }
-
-
 
 if(game_paused)
 {
@@ -47,11 +44,15 @@ else
 	}
 
 	//Restores the players shield after cooldown if unlocked
-	if(has_shield == true && !instance_exists(obj_shield))
+	if(instance_exists(obj_player1))
 	{
-		if(alarm[1] == -1)
+		if(has_shield == true && !instance_exists(obj_shield))
 		{
-			alarm[1] = shield_cooldown	        
-		}   
-	}	
+			if(alarm[1] == -1)
+			{
+				alarm[1] = shield_cooldown	        
+			}   
+		}	
+	}
+	
 }
