@@ -4,6 +4,17 @@ if(room == EmeraldForest && hp <= 0)
 	audio_play_sound(snd_death_screen, 1, 0)
 }
 
+
+//check if XP bar is filled
+if(xp >= 100 && !instance_exists(obj_powerup_menu))
+{
+    // Create powerup menu
+    instance_create_layer(0, 0, "Instances", obj_powerup_menu);
+    
+    // Pause the game
+    game_powerup_selection = true;
+}
+
 //play game music
 if(in_game && !game_music_playing)
 {
@@ -17,7 +28,7 @@ else if(!in_game)
 }
 
 //Pause music if game paused
-if(game_paused)
+if(game_paused || game_powerup_selection)
 {
 	audio_pause_sound(snd_gameplay_music)	
 }
@@ -26,7 +37,7 @@ else
 	audio_resume_sound(snd_gameplay_music)	
 }
 
-if(game_paused)
+if(game_paused || game_powerup_selection)
 {
 	//if(!instance_exists(obj_btn_resume))
 	//{

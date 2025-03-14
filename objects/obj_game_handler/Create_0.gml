@@ -7,6 +7,10 @@ has_shield = false
 game_paused = false
 alarm_paused = false
 game_music_playing = false
+game_powerup_selection = false;
+has_shield = false;
+has_magic_bolt = false;
+has_shurikens = false;
 
 hp = 100
 xp = 0
