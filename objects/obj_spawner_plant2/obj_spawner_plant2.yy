@@ -6,6 +6,8 @@
   "name":"obj_spawner_plant2",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_spawner_plant1","path":"objects/obj_spawner_plant1/obj_spawner_plant1.yy",},"propertyId":{"name":"obj_enemy","path":"objects/obj_spawner_plant1/obj_spawner_plant1.yy",},"resource":{"name":"obj_plant2","path":"objects/obj_plant2/obj_plant2.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"obj_plant2",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_spawner_plant1","path":"objects/obj_spawner_plant1/obj_spawner_plant1.yy",},"propertyId":{"name":"first_spawn_delay","path":"objects/obj_spawner_plant1/obj_spawner_plant1.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"900",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_spawner_plant1","path":"objects/obj_spawner_plant1/obj_spawner_plant1.yy",},"propertyId":{"name":"spawn_rate","path":"objects/obj_spawner_plant1/obj_spawner_plant1.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"300",},
   ],
   "parent":{
     "name":"Objects",

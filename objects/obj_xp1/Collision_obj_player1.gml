@@ -1,2 +1,2 @@
-obj_game_handler.xp += 10
+obj_game_handler.xp += value
 instance_destroy()

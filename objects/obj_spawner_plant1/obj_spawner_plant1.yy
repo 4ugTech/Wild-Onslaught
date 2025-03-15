@@ -32,6 +32,8 @@
         "GMObject",
       ],"listItems":[],"multiselect":false,"name":"obj_enemy","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"obj_plant1","path":"objects/obj_plant1/obj_plant1.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"obj_plant1","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"max_instances","filters":[],"listItems":[],"multiselect":false,"name":"max_instances","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"100","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"first_spawn_delay","filters":[],"listItems":[],"multiselect":false,"name":"first_spawn_delay","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"60","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"spawn_rate","filters":[],"listItems":[],"multiselect":false,"name":"spawn_rate","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"60","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

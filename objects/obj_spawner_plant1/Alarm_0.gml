@@ -39,7 +39,7 @@ if(instance_exists(obj_player1))
 		instance_create_layer(spawn_x, spawn_y, "Instances", obj_enemy);
 	}
 
-	alarm[0] = 60
+	alarm[0] = spawn_rate
 	show_debug_message("enemy spawned")
 }
 

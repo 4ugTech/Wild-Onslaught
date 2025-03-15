@@ -31,6 +31,7 @@
     {"$GMObjectProperty":"v1","%Name":"orbit_radius","filters":[],"listItems":[],"multiselect":false,"name":"orbit_radius","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"75","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"orbit_speed","filters":[],"listItems":[],"multiselect":false,"name":"orbit_speed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"3","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"damage","filters":[],"listItems":[],"multiselect":false,"name":"damage","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"40","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"origin","filters":[],"listItems":[],"multiselect":false,"name":"origin","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"obj_player1","path":"objects/obj_player1/obj_player1.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"obj_player1","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
