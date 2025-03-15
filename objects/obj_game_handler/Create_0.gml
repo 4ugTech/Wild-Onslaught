@@ -6,7 +6,7 @@ is_running = false
 game_paused = false
 alarm_paused = false
 game_music_playing = false
-game_powerup_selection = false;
+powerup_menu = false;
 
 hp = 100
 xp = 0

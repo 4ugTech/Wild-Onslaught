@@ -29,7 +29,7 @@ if(room == EmeraldForest)
 	
 	if(game_paused)
 	{
-		if(!game_powerup_selection)
+		if(!powerup_menu)
 		{
 			draw_set_color(c_black);
 			draw_set_alpha(.6)

@@ -43,7 +43,7 @@
 //            obj_game_handler.xp = 0;
             
 //            // Resume game
-//            obj_game_handler.game_powerup_selection = false;
+//            obj_game_handler.powerup_menu = false;
             
 //            // Destroy this menu
 //            instance_destroy();

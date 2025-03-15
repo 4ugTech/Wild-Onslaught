@@ -1,4 +1,4 @@
-if(in_game && !game_powerup_selection)
+if(in_game && !powerup_menu)
 {
 	if(game_paused = false)
 	{

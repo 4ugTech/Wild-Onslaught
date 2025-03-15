@@ -12,7 +12,7 @@ if(xp >= 100 && !instance_exists(obj_powerup_menu))
     instance_create_layer(0, 0, "Instances", obj_powerup_menu);
     
     // Pause the game
-    game_powerup_selection = true;
+    powerup_menu = true;
 	game_paused = true
 }
 
@@ -29,7 +29,7 @@ else if(!in_game)
 }
 
 //Pause music if game paused
-if(game_paused)
+if(game_paused && !powerup_menu)
 {
 	audio_pause_sound(snd_gameplay_music)	
 }

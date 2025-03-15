@@ -1,4 +1,4 @@
-if(in_game)
+if(in_game && !game_paused)
 {
 	//Cheat code for infinite health
 	if(keyboard_check_pressed(ord("H")))
