@@ -14,6 +14,8 @@ moving_right = false
 temp_alarm2 = 0
 alarm2_paused = false
 
+has_shield = true
+
 recycled = false
 
 instance_create_depth(x, y, -1, anim_shield)

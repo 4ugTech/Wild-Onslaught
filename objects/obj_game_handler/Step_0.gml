@@ -90,4 +90,16 @@ else
 		}	
 	}
 	
+	//Restores boss shield
+	if(instance_exists(obj_boss))
+	{
+		if(!instance_exists(obj_boss_shield))
+		{
+			if(alarm[3] == -1)
+			{
+				alarm[3] = boss_shield_cooldown	        
+			}   
+		}	
+	}
+	
 }

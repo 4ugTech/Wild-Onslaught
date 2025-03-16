@@ -19,6 +19,7 @@ seconds = 0
 stopwatch_time = 0
 total_kills = 0
 shield_cooldown = 300
+boss_shield_cooldown = 180
 obj_plant1_kills = 0
 temp_plant1_kills = 0
 obj_plant2_kills = 0

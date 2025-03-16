@@ -1,7 +1,7 @@
-if(instance_exists(origin))
+if(instance_exists(obj_boss))
 {
-	x = origin.x
-	y = origin.y -10
+	x = obj_boss.x
+	y = obj_boss.y -10
 }
 if(obj_game_handler.game_paused)
 {

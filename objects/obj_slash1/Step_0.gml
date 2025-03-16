@@ -32,17 +32,31 @@ else
 		if(alarm[0] == -1)
 		{
 			audio_play_sound(snd_slash, 1, 0)
-			//Deal damage to all enemies that collide 
-			with(obj_plant1)
+			//Deal damage to boss shield
+			if(place_meeting(x, y, obj_boss_shield))
 			{
-				if(place_meeting(x, y, other))
+				obj_boss_shield.image_blend = make_colour_rgb(255, 68, 0)
+				obj_boss_shield.alarm[0] = 20
+				obj_boss_shield.hp -= damage
+				if(obj_boss_shield.hp <= 0)
 				{
-					image_blend = make_colour_rgb(255, 68, 0)
-					alarm[1] = 20
-					hp -= obj_player1.damage
-					if(hp <= 0)
+					instance_destroy(obj_boss_shield)	
+				}
+			}
+			else
+			{
+				//Deal damage to all enemies that collide 
+				with(obj_plant1)
+				{
+					if(place_meeting(x, y, other))
 					{
-						instance_destroy()
+						image_blend = make_colour_rgb(255, 68, 0)
+						alarm[1] = 20
+						hp -= other.damage
+						if(hp <= 0)
+						{
+							instance_destroy()
+						}
 					}
 				}
 			}
