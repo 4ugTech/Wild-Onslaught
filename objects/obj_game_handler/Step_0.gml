@@ -1,9 +1,10 @@
+//Switch to death screen on player death
 if(room == EmeraldForest && hp <= 0)
 {
+	alarm[1] = -1
     room_goto(rm_death_screen);
 	audio_play_sound(snd_death_screen, 1, 0)
 }
-
 
 //check if XP bar is filled
 if(xp >= 100 && !instance_exists(obj_powerup_menu))
@@ -95,9 +96,9 @@ else
 	{
 		if(!instance_exists(obj_boss_shield))
 		{
-			if(alarm[3] == -1)
+			if(alarm[2] == -1)
 			{
-				alarm[3] = boss_shield_cooldown	        
+				alarm[2] = boss_shield_cooldown	        
 			}   
 		}	
 	}
