@@ -1,8 +1,7 @@
 //Switch to death screen on player death
 if(room == EmeraldForest && hp <= 0)
 {
-	alarm[1] = -1
-    room_goto(rm_death_screen);
+    room_goto(rm_death_screen)
 	audio_play_sound(snd_death_screen, 1, 0)
 }
 
@@ -82,7 +81,7 @@ else
 	//Restores the players shield after cooldown if unlocked
 	if(instance_exists(obj_player1))
 	{
-		if(shield_level >= 1 && !instance_exists(obj_shield))
+		if(!instance_exists(obj_shield))
 		{
 			if(alarm[1] == -1)
 			{
