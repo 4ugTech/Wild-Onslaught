@@ -111,10 +111,10 @@ else
 		}
 		
 		// Choose a random edge (0 = top, 1 = bottom, 2 = left, 3 = right)
-		var x1 = obj_player1.x - 502
-		var y1 = obj_player1.y - 358
-		var x2 = obj_player1.x + 502 
-		var y2 = obj_player1.y + 358
+		var x1 = obj_player1.x - 427
+		var y1 = obj_player1.y - 283
+		var x2 = obj_player1.x + 427 
+		var y2 = obj_player1.y + 283
 
 		var edge = irandom(3);
 		var spawn_x, spawn_y;
