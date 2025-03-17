@@ -8,7 +8,7 @@ if(room == EmeraldForest)
 	draw_healthbar(25, 60, 350, 70, xp, c_black, c_blue, c_teal, 0, true, true)
 	
 	//Draw timer
-	draw_set_font(font_title_1);
+	draw_set_font(font_title_1)
 	draw_set_color(c_white)
 	
 
@@ -20,8 +20,6 @@ if(room == EmeraldForest)
 	{
 		draw_text(1200, 15, string(minutes) + " : " + string(seconds))	
 	}
-	
-	
 	
 	//Draw pause symbol
 	if(game_paused)
