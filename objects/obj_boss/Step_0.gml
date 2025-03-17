@@ -120,8 +120,6 @@ else
 		alarm[4] = magic_bolt_cooldown	
 	}
 	
-
-	
 	scr_push_away(obj_plant1);
 	scr_push_away(obj_player1);
 }

@@ -147,4 +147,10 @@ else
 		
 		boss_spawned = true
 	}
+	
+	if(boss_killed && room == EmeraldForest)
+	{
+		game_paused = true
+		alarm[3] = 60
+	}
 }

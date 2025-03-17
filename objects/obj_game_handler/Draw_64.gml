@@ -27,14 +27,16 @@ if(room == EmeraldForest)
 		in_game_frame = 0
 	}
 	
+	//Draw pause symbol
 	if(game_paused)
 	{
-		if(!powerup_menu)
+		if(!powerup_menu && !boss_killed)
 		{
 			draw_set_color(c_black);
 			draw_set_alpha(.6)
 			draw_rectangle(0, 0, display_get_width(), display_get_height(), false)
 			draw_set_alpha(1)
+			
 			//Using GUI center coordinates
 			var gui_width = display_get_gui_width();
 		    var gui_height = display_get_gui_height();
