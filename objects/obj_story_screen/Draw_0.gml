@@ -23,7 +23,7 @@ draw_text(text_x, text_y + line_height*11, "How long can you survive against the
 
 // Add boss teaser
 draw_set_color(c_red);
-draw_text(text_x, text_y + line_height*13, "Beware! Rumors tell of a massive Plant Guardian that emerges after 5 minutes");
+draw_text(text_x, text_y + line_height*13, "Beware! Rumors tell of an evil being that emerges after 5 minutes");
 draw_text(text_x, text_y + line_height*14, "to protect its corrupted domain...");
 draw_set_color(c_white);
 
