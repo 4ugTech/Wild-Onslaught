@@ -5,6 +5,17 @@ if(room == EmeraldForest && hp <= 0)
 	audio_play_sound(snd_death_screen, 1, 0)
 }
 
+if(room != EmeraldForest)
+{
+	audio_stop_sound(snd_shuriken)
+	audio_stop_sound(snd_boss_spawn)
+}
+
+if(room != rm_win_screen)
+{
+	audio_stop_sound(snd_winningScreen)
+}
+
 //check if XP bar is filled
 if(xp >= 100 && !instance_exists(obj_powerup_menu))
 {
@@ -37,6 +48,7 @@ else
 {
 	audio_resume_sound(snd_gameplay_music)	
 }
+
 
 if(game_paused)
 {

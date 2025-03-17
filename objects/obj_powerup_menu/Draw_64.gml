@@ -56,7 +56,7 @@ for(var i = 0; i < num_powerups; i++)
     switch(powerup_type)
     {
         case "health":
-            description = "Recover 50 HP";
+            description = "Recover Full HP";
             break;
         case "magic":
             description = "Magic Bolt Attack";

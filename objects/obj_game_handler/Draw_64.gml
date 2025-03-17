@@ -59,6 +59,32 @@ if(room == EmeraldForest)
 		
 	}
 }
-
+if(room == EmeraldForest && instance_exists(obj_boss))
+{
+    var boss_health_percent = (obj_boss.hp / 600) * 100; // Boss has 1000 max HP
+    var bar_width = 400;
+    var bar_height = 25;
+    var bar_x = (display_get_gui_width() - bar_width) / 2; // Center horizontally
+    var bar_y = 25;
+    
+    // Draw boss name
+    draw_set_font(font_score);
+    draw_set_color(c_red);
+    draw_set_halign(fa_center);
+    draw_text(display_get_gui_width() / 2, bar_y + 27, "CORRUPTED GUARDIAN");
+    draw_set_halign(fa_left);
+    
+    // Draw the background of the health bar
+    draw_set_color(c_maroon);
+    draw_rectangle(bar_x, bar_y, bar_x + bar_width, bar_y + bar_height, false);
+    
+    // Draw the actual health
+    draw_set_color(c_red);
+    draw_rectangle(bar_x, bar_y, bar_x + (bar_width * (boss_health_percent / 100)), bar_y + bar_height, false);
+    
+    // Draw border
+    draw_set_color(c_white);
+    draw_rectangle(bar_x, bar_y, bar_x + bar_width, bar_y + bar_height, true);
+}
 
 

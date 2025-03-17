@@ -1,1 +1,2 @@
 part_system_clear(part_effects)
+part_system_destroy(part_effects)

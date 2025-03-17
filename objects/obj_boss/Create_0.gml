@@ -5,6 +5,8 @@ image_speed = 1
 vspeed = 0
 hspeed = 0
 
+audio_play_sound(snd_boss_spawn, 1, 0)
+
 //Movement bools
 moving_up = false
 moving_down = false
