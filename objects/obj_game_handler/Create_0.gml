@@ -4,12 +4,14 @@ window_set_fullscreen(true)
 fullscreen = false
 infinite_health = false
 in_game = false
+
 is_running = false
 game_paused = false
 alarm_paused = false
 game_music_playing = false
 powerup_menu = false
 boss_spawned = false
+boss_killed = false
 
 //Game State Reals
 temp_hp = 100
