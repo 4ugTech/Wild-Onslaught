@@ -48,26 +48,27 @@ if(place_meeting(x, y, obj_boss_shield))
 }
 else if(place_meeting(x, y, obj_plant1))
 {
+	var instance = instance_place(x, y, obj_plant1)
 	if(!obj_game_handler.game_paused)
 	{
-		if(!obj_plant1.invincible)
+		if(!instance.invincible)
 		{
-			obj_plant1.image_blend = make_colour_rgb(255, 68, 0)
-			obj_plant1.alarm[1] = 20
-			obj_plant1.hp -= damage 
-			if(obj_plant1.hp <= 0)
+			instance.image_blend = make_colour_rgb(255, 68, 0)
+			instance.alarm[1] = 20
+			instance.hp -= damage 
+			if(instance.hp <= 0)
 			{
-				instance_destroy(obj_plant1)
+				instance_destroy(instance)
 			}
 		}
-		if(instance_exists(obj_plant1))
+		if(instance_exists(instance))
 		{
-			obj_plant1.invincible = true
-			obj_plant1.alarm[2] = 2
+			instance.invincible = true
+			instance.alarm[2] = 2
 		}	
 	}
 	else if(obj_game_handler.game_paused)
 	{
-		obj_plant1.alarm[2] = 2
+		instance.alarm[2] = 2
 	}
 }

@@ -1,4 +1,4 @@
-window_set_fullscreen(false)
+window_set_fullscreen(true)
 
 //Game State Bools
 fullscreen = false
