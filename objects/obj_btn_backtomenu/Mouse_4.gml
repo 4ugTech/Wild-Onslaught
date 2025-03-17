@@ -1,4 +1,4 @@
-// Go back to the game room
+ // Go back to the game room
 room_goto(rm_main_menu);
 
 // Reset all necessary game values

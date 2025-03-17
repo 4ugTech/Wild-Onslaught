@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.115374,
+  "duration":0.214263,
   "name":"snd_shuriken",
   "parent":{
     "name":"Sounds",
