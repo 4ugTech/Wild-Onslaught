@@ -1,3 +1,5 @@
+event_inherited()
+
 if(!obj_game_handler.game_paused)
 {
 	if(instance_exists(origin))
@@ -23,4 +25,5 @@ else
 {
 	image_speed = 0	
 }
+
 

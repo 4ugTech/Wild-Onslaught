@@ -16,6 +16,8 @@ alarm2_paused = false
 
 has_shield = true
 
+magic_bolt_cooldown = 60
+
 recycled = false
 
 instance_create_depth(x, y, -1, anim_shield)

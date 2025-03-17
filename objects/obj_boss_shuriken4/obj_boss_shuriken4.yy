@@ -12,8 +12,8 @@
     "path":"folders/Objects.yy",
   },
   "parentObjectId":{
-    "name":"obj_boss_shuriken3",
-    "path":"objects/obj_boss_shuriken3/obj_boss_shuriken3.yy",
+    "name":"obj_boss_shuriken",
+    "path":"objects/obj_boss_shuriken/obj_boss_shuriken.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

@@ -114,7 +114,7 @@ else
 }
 if(instance_exists(obj_player1))
 {
-	if(point_distance(x, y, obj_player1.x, obj_player1.y) > 960)
+	if(point_distance(x, y, obj_player1.x, obj_player1.y) > 960 && !recycled)
 	{
 		// Choose a random edge (0 = top, 1 = bottom, 2 = left, 3 = right)
 		var x1 = obj_player1.x - 352
@@ -150,7 +150,7 @@ if(instance_exists(obj_player1))
 			spawn_y = random_range(y1, y2);
 		}
 		recycled = true
-		instance_create_layer(spawn_x, spawn_y, "Instances", obj_plant1);
+		instance_create_layer(spawn_x, spawn_y, "Instances", this);
 		instance_destroy()
 		show_debug_message("enemy recycled")
 	}

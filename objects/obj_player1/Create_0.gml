@@ -4,7 +4,7 @@ vspeed = 0
 hspeed = 0
 points = 0
 
-
+invincible = false 
 
 //Movement bools
 moving_left = false

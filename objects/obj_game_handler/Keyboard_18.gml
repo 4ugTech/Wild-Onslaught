@@ -11,7 +11,7 @@ if(in_game && !game_paused)
 		}
 		else
 		{
-			hp = temp_hp6
+			hp = temp_hp
 			infinite_health = false
 		}
 	}
@@ -26,6 +26,13 @@ if(in_game && !game_paused)
 	if(keyboard_check_pressed(ord("X")))
 	{
 	    xp = 100
+	}
+	
+	//Cheat code to set game time to 5:00
+	if(keyboard_check_pressed(ord("T")))
+	{
+		minutes = 5
+		seconds = 0
 	}
 }
 

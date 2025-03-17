@@ -14,3 +14,5 @@ with (obj_game_handler) {
     total_kills = 0;
 }
 
+audio_stop_sound(snd_death_screen)
+

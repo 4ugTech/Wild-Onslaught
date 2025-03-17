@@ -8,7 +8,8 @@ is_running = false
 game_paused = false
 alarm_paused = false
 game_music_playing = false
-powerup_menu = false;
+powerup_menu = false
+boss_spawned = false
 
 //Game State Reals
 temp_hp = 100

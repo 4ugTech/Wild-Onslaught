@@ -32,6 +32,7 @@ else
 		if(alarm[0] == -1)
 		{
 			audio_play_sound(snd_slash, 1, 0)
+			
 			//Deal damage to boss shield
 			if(place_meeting(x, y, obj_boss_shield))
 			{

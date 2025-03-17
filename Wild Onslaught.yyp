@@ -43,6 +43,7 @@
     {"id":{"name":"font_timer","path":"fonts/font_timer/font_timer.yy",},},
     {"id":{"name":"font_title_1","path":"fonts/font_title_1/font_title_1.yy",},},
     {"id":{"name":"font_title","path":"fonts/font_title/font_title.yy",},},
+    {"id":{"name":"obj_boss_bolt","path":"objects/obj_boss_bolt/obj_boss_bolt.yy",},},
     {"id":{"name":"obj_boss_death","path":"objects/obj_boss_death/obj_boss_death.yy",},},
     {"id":{"name":"obj_boss_shield","path":"objects/obj_boss_shield/obj_boss_shield.yy",},},
     {"id":{"name":"obj_boss_shuriken","path":"objects/obj_boss_shuriken/obj_boss_shuriken.yy",},},
