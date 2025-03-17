@@ -34,5 +34,11 @@ if(in_game && !game_paused)
 		minutes = 5
 		seconds = 0
 	}
+	
+	//Cheat code to go straight to win screen
+	if(keyboard_check_pressed(ord("W")))
+	{
+		room_goto(rm_win_screen);
+	}
 }
 
