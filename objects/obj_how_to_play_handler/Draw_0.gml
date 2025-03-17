@@ -37,7 +37,7 @@ if (room == page1_room) {
     draw_text(room_width/2, 550, "100 HP - Shoots projectiles for 10 damage");
     
     draw_text(room_width/2, 590, "Boss: Appears after 5 minutes");
-    draw_text(room_width/2, 620, "600 HP - Has shield and multiple attacks");
+    draw_text(room_width/2, 620, "750 HP - Has shield and multiple attacks");
 }
 // Page 2 content
 else if (room == page2_room) {

@@ -61,7 +61,7 @@ if(room == EmeraldForest)
 }
 if(room == EmeraldForest && instance_exists(obj_boss))
 {
-    var boss_health_percent = (obj_boss.hp / 600) * 100; // Boss has 1000 max HP
+    var boss_health_percent = (obj_boss.hp / 750) * 100; // Boss has 1000 max HP
     var bar_width = 400;
     var bar_height = 25;
     var bar_x = (display_get_gui_width() - bar_width) / 2; // Center horizontally
