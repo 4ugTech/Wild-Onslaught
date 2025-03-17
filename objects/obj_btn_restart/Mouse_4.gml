@@ -12,6 +12,7 @@ with (obj_game_handler) {
 	obj_plant1_kills = 0;
     obj_plant2_kills = 0;
     total_kills = 0;
+	obj_game_handler.boss_spawned = false
 }
 
 audio_stop_sound(snd_death_screen)
