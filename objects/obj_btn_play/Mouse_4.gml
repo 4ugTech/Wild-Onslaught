@@ -10,5 +10,5 @@ with(obj_game_handler) {
     total_kills = 0;
 }
 
-room_goto(EmeraldForest)
+room_goto(rm_story)
 //obj_game_handler.in_game = true
