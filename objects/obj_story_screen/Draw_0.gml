@@ -11,7 +11,7 @@ var text_x = room_width/2;
 var text_y = 160;
 var line_height = 32;
 
-draw_text(text_x, text_y, "Lucian Hale, a skilled swordswoman from the peaceful village of Verdant Haven,");
+draw_text(text_x, text_y, "Lucian Hale, a skilled swordswoman from the peaceful village of Vinland,");
 draw_text(text_x, text_y + line_height, "now stands alone at the edge of the Emerald Plains.");
 draw_text(text_x, text_y + line_height*3, "Dark forces have corrupted the once tranquil grasslands, transforming");
 draw_text(text_x, text_y + line_height*4, "the local flora into monstrous, sentient plants that attack anything in sight.");
