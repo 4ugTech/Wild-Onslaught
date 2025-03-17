@@ -72,3 +72,12 @@ else if(place_meeting(x, y, obj_plant1))
 		instance.alarm[2] = 2
 	}
 }
+
+if(obj_game_handler.game_paused == true && audio_is_playing(snd_shuriken))
+{
+	audio_pause_sound(snd_shuriken)	
+}
+else if(audio_is_paused(snd_shuriken))
+{
+	audio_resume_sound(snd_shuriken)
+}
