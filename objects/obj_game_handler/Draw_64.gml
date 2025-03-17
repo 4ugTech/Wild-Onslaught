@@ -10,7 +10,7 @@ if(room == EmeraldForest)
 	//Draw timer
 	draw_set_font(font_title_1);
 	draw_set_color(c_white)
-	seconds = floor(in_game_frame / 60)
+	
 
 	if(seconds < 10)
 	{
@@ -21,11 +21,7 @@ if(room == EmeraldForest)
 		draw_text(1200, 15, string(minutes) + " : " + string(seconds))	
 	}
 	
-	if(seconds >= 60)
-	{
-		minutes++	
-		in_game_frame = 0
-	}
+	
 	
 	//Draw pause symbol
 	if(game_paused)

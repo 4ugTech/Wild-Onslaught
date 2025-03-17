@@ -5,6 +5,21 @@ if(room == EmeraldForest && hp <= 0)
 	audio_play_sound(snd_death_screen, 1, 0)
 }
 
+if(room == EmeraldForest)
+{
+	seconds = floor(in_game_frame / 60)	
+	if(seconds >= 60)
+	{
+		minutes++	
+		in_game_frame = 0
+	}
+}
+
+if(room != EmeraldForest)
+{
+	audio_stop_sound(snd_shuriken)	
+}
+
 //check if XP bar is filled
 if(xp >= 100 && !instance_exists(obj_powerup_menu))
 {
