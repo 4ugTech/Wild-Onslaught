@@ -22,7 +22,7 @@ else if(instance_exists(obj_player1))
 start_x = 410;
 end_x = 940;
 x = start_x;
-y = 265;
+y = 280;
 
 // Set initial movement
 direction = 0;
