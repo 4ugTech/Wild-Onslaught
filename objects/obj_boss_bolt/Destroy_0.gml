@@ -1,1 +1,0 @@
-part_system_clear(part_effects)

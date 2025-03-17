@@ -1,1 +1,0 @@
-obj_game_handler.hp += amount
